@@ -1,18 +1,40 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #000000;
-    color: #f6f6f6;
+    color: #f6f6f6
 }
 
-h1 {
-    
-}
-
-strong {
+.titulo-destaque {
     color: #22D4FD;
 }
 
-p {
-    font-size: 18px;
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+}
+
